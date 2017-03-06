@@ -102,6 +102,7 @@ angular.module('redditClone', ['ui.router'])
       });
       $scope.body = '';
     };
+    
     $scope.incrementUpvotes = function(comment) {
       posts.upvoteComment(post, comment);
     }
